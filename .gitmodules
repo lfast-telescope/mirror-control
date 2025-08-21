@@ -1,0 +1,6 @@
+[submodule "phase_retrieval"]
+	path = phase_retrieval
+	url = https://github.com/lfast-telescope/phase_retrieval.git
+[submodule "SHWFS"]
+	path = SHWFS
+	url = https://github.com/lfast-telescope/SHWFS.git

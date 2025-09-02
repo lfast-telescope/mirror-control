@@ -4,3 +4,6 @@
 [submodule "SHWFS"]
 	path = SHWFS
 	url = https://github.com/lfast-telescope/SHWFS.git
+[submodule "interferometer"]
+	path = interferometer
+	url = https://github.com/lfast-telescope/interferometer.git

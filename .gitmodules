@@ -2,8 +2,9 @@
 	path = phase_retrieval
 	url = https://github.com/lfast-telescope/phase_retrieval.git
 [submodule "SHWFS"]
-	path = SHWFS
-	url = https://github.com/lfast-telescope/SHWFS.git
+    path = SHWFS
+    url = https://github.com/lfast-telescope/SHWFS.git
+    branch = main
 [submodule "interferometer"]
 	path = interferometer
 	url = https://github.com/lfast-telescope/interferometer.git

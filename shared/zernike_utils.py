@@ -108,3 +108,43 @@ def remove_modes(M,C,Z,remove_coef):
             plt.show()
     Surf = M[1] - removal
     return Surf
+
+def return_zernike_name(coef):
+    #Return name of input Zernike polynomial; use numbering in "return_zernike_nl"
+    if coef == 0:
+        name = 'Piston'
+    elif coef == 1:
+        name = 'Tip'
+    elif coef == 2:
+        name = 'Tilt'
+    elif coef == 3:
+        name = 'Astigmatism'
+    elif coef == 4:
+        name = 'Defocus'
+    elif coef == 5:
+        name = 'Oblique Astigmatism'
+    elif coef == 6:
+        name = 'Trefoil'
+    elif coef == 7:
+        name = 'Vertical Coma'
+    elif coef == 8:
+        name = 'Horizontal Coma'
+    elif coef == 9:
+        name = 'Horizontal Trefoil'
+    elif coef == 10:
+        name = 'Quatrefoil'
+    elif coef == 12:
+        name = 'Primary spherical'
+    elif coef == 14:
+        name = 'Horizontal Quatrefoil'
+    elif coef == 24:
+        name = 'Secondary spherical'
+    elif coef == 40:
+        name = 'Tertiary spherical'
+    elif coef == 60:
+        name = 'Quatenary spherical'
+    elif coef == 84:
+        name = 'Quinary spherical'
+    else:
+        name = None
+    return name

@@ -6,6 +6,6 @@
     url = https://github.com/lfast-telescope/SHWFS.git
     branch = refactor/high_level_processing
 [submodule "interferometer"]
-	path = interferometer
-	url = https://github.com/lfast-telescope/interferometer.git
-	branch = dev
+        path = interferometer
+        url = https://github.com/lfast-telescope/interferometer.git
+        branch = dev

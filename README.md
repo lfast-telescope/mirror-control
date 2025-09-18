@@ -33,7 +33,7 @@ mirror_control/
 1. **Clone with submodules:**
    ```bash
    git clone --recursive https://github.com/lfast-telescope/mirror-control.git
-   cd mirror-control
+   cd mirror_control
    ```
 
 2. **Install dependencies:**

@@ -8,4 +8,4 @@
 [submodule "interferometer"]
         path = interferometer
         url = https://github.com/lfast-telescope/interferometer.git
-        branch = dev
+        branch = main
